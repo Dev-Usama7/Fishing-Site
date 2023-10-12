@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+  <input type="text" id="myDateInput">
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script>
+    flatpickr("#myDateInput", {
+      dateFormat: "Y-m-d" // Customize the date format as needed
+    });
+  </script>
+</body>
+</html>
